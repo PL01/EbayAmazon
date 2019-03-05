@@ -4,10 +4,10 @@ const StyledSearch = Styled.div`
 	input {
 		width: 50%;
 		border-radius: 3px;
-		padding: 13px;
+		padding: 11px;
 		border: 0;
 		font-weight: 600;
-		font-size: 1.4rem;
+		font-size: 1.3rem;
 	}
 `;
 

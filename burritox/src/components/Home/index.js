@@ -1,8 +1,15 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Header from './Header';
+import Items from '../Items';
+
 class index extends Component {
 	render() {
-		return <Header />;
+		return (
+			<Fragment>
+				<Header />
+				<Items />
+			</Fragment>
+		);
 	}
 }
 

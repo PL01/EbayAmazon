@@ -4,6 +4,7 @@ import GlobalStyle from '../styled/GlobalStyle';
 import HomeContainer from '../containers/HomeContainer';
 import SignupContainer from '../containers/SignupContainer';
 import LoginContainer from '../containers/LoginContainer';
+import ItemDetailsContainer from '../containers/ItemDetailsContainer';
 import StyledContainer from '../styled/StyledContainer';
 import GuestNav from './Home/GuestNav';
 
@@ -17,6 +18,7 @@ const App = () => {
 			<GuestNav />
 			<StyledContainer>
 				<Route exact path="/" component={HomeContainer} />
+				<Route exact path="/items/:id" component={ItemDetailsContainer} />
 				<Route exact path="/login" component={LoginContainer} />
 				<Route exact path="/signup" component={SignupContainer} />
 			</StyledContainer>

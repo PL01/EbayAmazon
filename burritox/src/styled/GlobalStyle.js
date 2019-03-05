@@ -20,6 +20,9 @@ const GlobalStyle = createGlobalStyle`
         text-decoration: none;
         border: 0;
     }
+    a {
+        cursor: pointer;
+    }
     #root {
         min-height: 100vh;
     }

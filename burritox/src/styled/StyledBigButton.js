@@ -2,11 +2,12 @@ import Styled from 'styled-components';
 
 const StyledBigButton = Styled.button`
     background: ${(props) => props.theme.green};
-    padding: 15px;
+    padding: 11px;
     margin-left: 0.5rem;
-    font-size: 1.2rem;
-    font-weight: 600;
-    border-radius: 5px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border:0;
+    border-radius: 3px;
     color: white;
 `;
 

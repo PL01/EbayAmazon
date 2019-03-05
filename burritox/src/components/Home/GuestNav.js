@@ -17,7 +17,7 @@ const StyledLinks = Styled.div`
         cursor: pointer;
         display: inline-block;
         margin:  0 0.8rem;
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
     `;
 
