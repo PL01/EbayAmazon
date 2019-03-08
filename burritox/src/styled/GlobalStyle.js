@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         font-family: sans-serif;  
         font-size: 12px;
         letter-spacing: 0.5px;
+
     }
     a, button {
         text-decoration: none;

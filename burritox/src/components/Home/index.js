@@ -7,7 +7,7 @@ class index extends Component {
 		return (
 			<Fragment>
 				<Header />
-				<Items />
+				<Items {...this.props} />
 			</Fragment>
 		);
 	}
